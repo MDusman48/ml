@@ -1,0 +1,76 @@
+{% include 'Teme/navbar.html' %}
+
+{% block content %}
+{% if messages %}
+	{% for message in messages %}
+		<div class="alert alert-{{ message.tags }}">{{ message }}</div>
+	{% endfor %}
+{% endif %}
+
+	<center>
+	<h1>Hello ! Welcome To The Advanced And Easiest Way Of Saving Your Credentials</h1>
+
+	<i><b><ins>As of today, you will come across to the most advanced website where you can upload, view and download your PDF files,
+		<br><br> For future use.</ins></b></i>
+	<br/><br/>
+	{{ cal|safe }}
+	<br/><br/>
+
+	</center>
+	<br>
+	<br>
+	<p><b>PRECAUTIONS!!</b></p>
+	<div>the definition aming system all 
+		<ol>
+			<li>You should make sure that you sign up with up your correct details in other to avoid unnecessary mistakes.</li>
+			<li>Be sure to remember your sign up details to avoid problems when it comes to signing in.</li>
+			<li>You are provided with a link to Change your Password if Forgotten.</li>
+		</ol>
+			<div>
+			<div>
+			<P><b>GUIDES/STEPS</b></P>
+			<ul> 
+				<li>Firstly, you sign up.</li>
+				<li>Secondly, you sign in.</li>
+				<li>Last but not the least, you upload your credentials (PDF) and save it.</li>
+				<li>Sign out, and relax.</li>
+
+				<br/><br/><br/>
+				<center>
+				Copyright (MD)
+				</center>
+				<br/> 
+
+				<right>
+					Save And Relax<br>
+					<right>S_A_R..!!</right>
+				</right>
+				<!-- <style>
+					right {
+						margin-left: 800px;
+						font-size: 20px;
+						font-family: "Times New Roman";
+						font-display: auto;
+						font-weight: lighter;
+						font-style: italic;
+					}
+
+					ol {
+						font-family: "Times New Roman";
+						font-style: italic;
+					}
+
+					ul {
+						font-family: "Times New Roman";
+						font-style: italic;
+					}
+
+					h1 {
+						font-family: fantasy;
+						font-style: oblique;
+					}
+
+				</style>
+				<body style="background-color: whitesmoke;">
+ -->
+{% endblock %}
